@@ -22,7 +22,7 @@ PV = "4.15.2+git${SRCPV}"
 # Patches from https://github.com/meta-qt5/qtcreator/commits/b4.9.2
 # 4.9.2.meta-qt5.1
 SRC_URI = " \
-    git://code.qt.io/qt-creator/qt-creator.git;branch=4.15 \
+    https://code.qt.io/qt-creator/qt-creator.git;branch=4.15 \
     file://0001-app-Use-malloc_trim-only-on-glibc.patch \
     file://0002-clangformat-Fix-build-with-LLVM-13.patch \
     file://0003-clangformat-Fix-build-with-LLVM-13.patch \
